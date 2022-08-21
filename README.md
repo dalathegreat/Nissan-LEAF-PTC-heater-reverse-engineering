@@ -2,7 +2,7 @@
 Tips and tricks on repairing the fragile 2011-2012 ZE0 LEAF PTC heater.
 
 ## Software
-The software on the units changed over the years. Presumably, newer software can be flashed onto the units. This is done with an Atmel compatible flasher (for instance "AVRisp mkII"), and selecting "Atmel MEGA644P" as target CPU. There is a place for a 6-pin header above the CPU used for flashing. Solder in a header Atmel Studio 7 can be used to either flash or download the current software (help wanted to collect all versions!) 
+The software on the units changed over the years. Presumably, newer software can be flashed onto the units. This is done with an Atmel compatible flasher (for instance "AVRisp mkII"), and selecting "Atmel MEGA644P" as target CPU. There is a place for a 6-pin header above the CPU used for flashing. Solder in a header, Atmel Studio 7 can be used to either flash or download the current software (help wanted to collect all versions!) 
 
 When repairing a unit, consider updating the software at the same time. See the Software folder for .hex files.
 
@@ -35,6 +35,8 @@ The hardware is quite unreliable by todays standards. It has multiple failure po
 Most people will opt for a replacement unit, you can either go with a brand new ($$$$), or with a known used one. If you need to replace the PTC, start with replacing the PTC, and see if the heater starts to work. If you still get "Heater voltage" error codes, you need to change the fuse inside the DC/DC junction block.
 
 ## Useful links
-https://www.mynissanleaf.com/viewtopic.php?t=28105
-https://ev-olution.yolasite.com/nissan-leaf-ptc-heater-repair.php
-http://www.japtoys.net/forum/viewtopic.php?f=10&t=3613&start=60#p71462
+- PTC & fuse replacement, step-by-step pictures: https://www.youtube.com/watch?v=u19YogcC2H8
+- PTC replacement: https://www.youtube.com/watch?v=u19YogcC2H8
+- https://www.mynissanleaf.com/viewtopic.php?t=28105
+- https://ev-olution.yolasite.com/nissan-leaf-ptc-heater-repair.php
+- http://www.japtoys.net/forum/viewtopic.php?f=10&t=3613&start=60#p71462
